@@ -1,8 +1,8 @@
 return {
-  "kylechui/nvim-surround",
-  event = { "BufReadPre", "BufNewFile" },
-  version = "*", 
-  config = true,
+	"kylechui/nvim-surround",
+	event = { "BufReadPre", "BufNewFile" },
+	version = "*",
+	config = true,
 }
 
 -- --------------------------------------------------------------------------------
@@ -11,5 +11,10 @@ return {
 --     [delete ar*ound me!]        ds]             delete around me!
 --     remove <b>HTML t*ags</b>    dst             remove HTML tags
 --     'change quot*es'            cs'"            "change quotes"
---     <b>or tag* types</b>        csth1<CR>       <h1>or tag types</h1>
+--     <h2>or tag* types</h2>        csth1<CR>       <h1>or tag types</h1>
 --     delete(functi*on calls)     dsf             function calls
+--
+-- help
+-- ys -> insert -> select word, tag (isw, at, ... ) char wrap
+-- cs -> change
+-- ds -> delete

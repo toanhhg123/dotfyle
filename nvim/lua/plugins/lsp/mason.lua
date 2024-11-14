@@ -49,6 +49,8 @@ return {
 				"black", -- python formatter
 				"pylint",
 				"eslint_d",
+				"java-debug-adapter",
+				"java-test",
 			},
 		})
 	end,

@@ -15,6 +15,12 @@ return {
 --     delete(functi*on calls)     dsf             function calls
 --
 -- help
--- ys -> insert -> select word, tag (isw, at, ... ) char wrap
+-- HACK:
+-- ys -> insert
 -- cs -> change
 -- ds -> delete
+--
+-- TODO:
+--
+-- "( hello world 123 )"
+--
